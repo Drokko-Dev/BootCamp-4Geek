@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  border: 1px solid black;
+  font-family: 'Kalam';
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+}
+
+#text {
+  width: 45%;
+}
+
+#text p {
+  font-size: 16px;
+}
+
+#labels {
+  width: 50%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#labels input {
+  border: none;
+  border-bottom: 1px solid black;
+  color: grey;
+  font-size: 18px;
+  font-family: 'Kalam';
+}
+
+button {
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  font-family: 'Kalam';
+  font-size: 18px;
+  background-color: #ccc;
+}
