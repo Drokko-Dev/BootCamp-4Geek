@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      body {
+        background-color: rgb(47, 47, 138);
+        color: aliceblue;
+        font-family: monospace;
+      }
+      header {
+        background-color: rgb(21, 21, 102);
+        height: 40px;
+        border-bottom: 1px solid rgb(7, 4, 48);
+        h1 {
+          text-align: center;
+          padding-top: 4px;
+        }
+      }
+      main {
+        padding-top: 30px;
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        & > h1 {
+          text-align: center;
+          font-size: 2rem;
+        }
+
+        & > p {
+          font-size: 1rem;
+          text-align: justify;
+        }
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+
+      article {
+        padding: 10px;
+        border: 1px solid rgba(0, 0, 255, 0.527);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        outline: 2px solid transparent;
+        outline-offset: 0;
+        transition: all 0.4s ease;
+
+        &:hover {
+          outline: 2px solid rgb(0, 255, 0);
+          outline-offset: 6px;
+          transform: scale(1.05);
+          cursor: pointer;
+        }
+        h2 {
+          font-size: 1.1rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>CLASE N1 - BOOTCAMP 4GEEK</h1>
+    </header>
+
+    <main>
+      <h1>Lenguajes fundamentales del desarrollo web</h1>
+      <p>
+        Estos tres lenguajes <strong>[HTML, CSS y JavaScript]</strong> forman la
+        base de cualquier sitio web moderno. Juntos permiten crear páginas
+        estructuradas, visualmente atractivas e interactivas.
+      </p>
+      <section>
+        <article>
+          <h2>🟠 Programa en HTML</h2>
+          <p>
+            HTML (HyperText Markup Language) es el lenguaje que da estructura al
+            contenido de la web. Define elementos como títulos, párrafos,
+            imágenes, enlaces y secciones, permitiendo organizar la información
+            de una página.
+          </p>
+        </article>
+        <article>
+          <h2>🔵 Programa en CSS</h2>
+          <p>
+            CSS (Cascading Style Sheets) se encarga del estilo y la presentación
+            del contenido HTML. Permite aplicar colores, fuentes, márgenes,
+            animaciones y diseños responsivos para hacer que una página web
+            luzca atractiva y ordenada.
+          </p>
+        </article>
+        <article>
+          <h2>🟢 Programa en JavaScript</h2>
+          <p>
+            JavaScript es el lenguaje de programación que da interactividad a
+            las páginas web. Permite crear efectos dinámicos, validar
+            formularios, manejar eventos y comunicarse con servidores sin
+            recargar la página.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
