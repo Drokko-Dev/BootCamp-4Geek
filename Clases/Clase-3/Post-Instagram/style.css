@@ -113,7 +113,6 @@ section > img {
   flex-direction: column;
   gap: 1rem;
   padding: 0rem 1rem 1rem 1rem;
-
   strong:hover {
     cursor: pointer;
   }
@@ -121,11 +120,9 @@ section > img {
   p {
     text-align: justify;
     max-height: 8.4rem;
-
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
   }
 }
